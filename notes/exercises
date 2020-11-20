@@ -1,0 +1,25 @@
+Interview questions are all behavioral.
+    Like things you didn't like about your ex-manager, why
+    Describe project that you didn't want to work in but you have to and how did you cope
+    Describe most challenging project you have worked for
+    Describe situation where you change / influence team opinion about something
+    Describe estimation process you have used to estimate task
+Java Written Test
+    Write function to recursively calculate fibonacci series
+    Write function to reverse string
+    Write function to check is given string is palindrome
+    Write function to remove duplicates from sorted array
+SQL Given a table of Employee and department with different fields
+    Write a query to show total employee count in each department
+        select department, count(*) from employee group by department
+    Write a query to show all departments and list of employee in each departments
+        select department, employee from employee group by department
+    Write a query to show list of department with more then 10 employee I was surprised there was no technical interview for this position even though hiring manager told me that job requires 70% coding and 30% team leadership.
+        select e.department from employee e where (select count(*) from employee d where d.department = e.department) > 10 group by department
+
+There were a lot of questions on on site on algorithms and data structures. Mostly on strings such as reversal), removing duplicates in an array, finding maximum subsequence, vectors. There are about 5 such questions and rest is behavioral .
+The phone interview was more around specific .Net or java technologies such as interfaces vs abstract, garbage collection,..
+
+What is the difference between a Set and a List?
+
+Convex hull problem
